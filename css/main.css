@@ -44,6 +44,23 @@ section {
   margin: 2.5rem;
 }
 
+.btn {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 1em .75em 1em;
+  background-color: #ffbad2;
+  border-radius: 8px;
+  border-width: 3px;
+  color: #fff;
+  text-decoration: none;
+  font-family: Merriweather, serif;
+}
+
+.btn:hover {
+  background-color: #bd2031;
+  color: #fff;
+}
+
 .chef {
   margin: 2.5rem;
 }
@@ -54,6 +71,8 @@ section {
 
 .special ul {
   font-family: Merriweather, serif;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .special {
@@ -62,10 +81,15 @@ section {
 
 .location ul {
   font-family: Merriweather, serif;
+  list-style-type: none;
+  padding-left: 0;
+  font-size: .8rem;
 }
 
 .location {
-  margin: 2.5rem;
+  margin: 0;
+  padding: 1rem;
+  background-color: #ffbad2;
 }
 
 img {
@@ -75,13 +99,16 @@ img {
 }
 
 header li {
-  line-height: .5rem;
+  line-height: .5;
   padding-bottom: 2rem;
+}
+
+header nav li {
+  list-style-type: none;
 }
 
 a {
   text-decoration: none;
-  list-style-type: none;
   color: #bd2031;
 }
 
@@ -102,6 +129,7 @@ footer {
   margin: .5rem;
   text-align: left;
 }
+
 
 @media only screen and (min-width: 25em) {
 
