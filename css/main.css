@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font-family: "Lobster", "Merriweather", serif, sans-serif;
+  font-family: Lobster, Merriweather, serif, sans-serif;
   line-height: 1.3;
 
 }
@@ -24,7 +24,7 @@ body {
 }
 
 h1 {
-  font-family: "Lobster", sans-serif;
+  font-family: Lobster, sans-serif;
   text-align: center;
   color: #ffbad2;
   font-size: 3rem;
@@ -33,7 +33,7 @@ h1 {
 }
 
 p {
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
 }
 
 header nav {
@@ -48,12 +48,12 @@ section {
   margin: 2.5rem;
 }
 
-.read_more {
-  font-family: "Merriweather", serif;
+.readmore {
+  font-family: Merriweather, serif;
 }
 
 .special ul {
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
 }
 
 .special {
@@ -61,7 +61,7 @@ section {
 }
 
 .location ul {
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
 }
 
 .location {
@@ -103,7 +103,6 @@ footer {
   text-align: left;
 }
 
-
 @media only screen and (min-width: 25em) {
 
   header nav {
@@ -133,4 +132,4 @@ footer {
     line-height: 1.5;
     font-size: 130%;
   }
-}  
+}
