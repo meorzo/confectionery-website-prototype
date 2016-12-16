@@ -69,11 +69,22 @@ section {
 }
 
 .chef {
-  margin: 2.5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  margin-top: 4rem;
+  display: block;
+  text-align: center;
 }
 
 .chef .btn {
   margin-left: 0;
+}
+
+.chefimg {
+  width: 60%;
+  margin-top: 6rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .readmore {
@@ -87,7 +98,20 @@ section {
 }
 
 .special {
-  margin: 2.5rem;
+  margin-top: 8rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 4rem;
+  border: 3px solid #bd2031;
+  border-radius: 8px;
+}
+
+.special h3 {
+  margin-left: 2rem;
+}
+
+.special ul {
+  margin-left: 2rem;
 }
 
 .location ul {
@@ -163,14 +187,33 @@ footer {
   }
 
   header nav {
-    display: inline-block;
-    text-align: center;
     margin-top: 0;
   }
 
   header nav li {
     width: 25%;
     padding: 3rem;
+  }
+
+  .chef {
+    text-align: center;
+  }
+
+  .chefimg {
+    width: 60%;
+    position: relative;
+  }
+
+  .chefimg:nth-child(2) {
+    display: block;
+    width: 33%;
+  }
+
+  .txt {
+    position: absolute;
+    width: 30%;
+    float: right;
+    display: none;
   }
 }
 
@@ -181,12 +224,10 @@ footer {
     font-size: 120%;
   }
 
-  header nav {
-    display: inline-block;
-    text-align: center;
-    margin-top: 0;
+  .chefimg {
+    width: 50%;
   }
-}  
+}
 
 @media only screen and (min-width: 90em) {
 
